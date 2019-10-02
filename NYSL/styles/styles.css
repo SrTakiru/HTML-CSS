@@ -56,7 +56,6 @@ img {
     flex-direction: column;
     text-align: left;
     background-color: white;
-    float: middle;
     color: black;
 }
 
@@ -64,4 +63,8 @@ a, a:visited {
     color: blue;
     vertical-align: center;
     text-decoration: none;
+}
+
+.active{
+    font-weight: bolder;
 }
