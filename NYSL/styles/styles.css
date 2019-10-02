@@ -1,0 +1,64 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    border: 0;
+    margin: 0;
+}
+
+header {
+    background-image: url(design1_image1.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: top;
+    font-size: 25px;
+    color: white;    
+}
+
+header, #topbar {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#topbar {
+    margin-top: 20%;
+    vertical-align: bottom;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+img {
+    position: absolute;
+    top: 25%;
+    right: 25%;
+    display: block;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    float: left;
+    margin: 10px;
+    line-height: 50px;
+    width: 150px;
+    height: 500px;
+    font-size: 20px;
+    color: blue;
+}
+
+.midpage {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: white;
+    float: middle;
+    color: black;
+}
+
+a, a:visited {
+    color: blue;
+    vertical-align: center;
+    text-decoration: none;
+}
